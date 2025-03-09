@@ -1,7 +1,7 @@
 package com.tedeevgv.patterns.behavioral.chain_of_responsibility;
 
 public class File {
-    private FileType type;
+    private final FileType type;
 
     public File(FileType type) {
         this.type = type;

@@ -1,6 +1,6 @@
 package com.tedeevgv.patterns.behavioral.chain_of_responsibility;
 
-public class ChoRClient {
+public class ChainOfResponsibilityClient {
     public static void main(String[] args) {
         File xlsxFile = new File(FileType.XLSX);
         File docxFile = new File(FileType.DOCX);
